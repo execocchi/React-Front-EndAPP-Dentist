@@ -1,0 +1,9 @@
+.footer {
+  display: block;
+  padding: 0.5rem;
+}
+
+.footer p,
+.footer h1 {
+  margin: 1%;
+}

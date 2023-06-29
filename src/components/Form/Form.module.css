@@ -1,0 +1,83 @@
+.form {
+  padding: 3rem;
+  max-width: 40rem;
+  height: 60vh;
+  margin: 2rem auto;
+}
+
+.alter-form {
+  padding: 3rem;
+  max-width: 40rem;
+  height: 60vh;
+  margin: 2rem auto;
+}
+
+.form label,
+.form input,
+.form textarea {
+  display: block;
+  width: 100%;
+  margin: 0.5rem;
+}
+
+.alter-form label,
+.alter-form input,
+.alter-form textarea {
+  display: block;
+  width: 100%;
+  margin: 0.5rem;
+  color: var(--color-gray-800);
+  font-weight: 500;
+}
+
+.form input,
+.form textarea {
+  font: inherit;
+  padding: 0.25rem;
+}
+
+.alter-form input,
+.alter-form textarea {
+  font: inherit;
+  padding: 0.25rem;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  background-color: var(--color-gray-300);
+  color: var(--color-gray-800);
+  border: none;
+}
+
+.actions button:hover {
+  background-color: var(--color-primary-300);
+}
+
+.error {
+  color: var(--color-primary-500);
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.alter-error {
+  color: var(--color-gray-800);
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.error h2 {
+  text-transform: uppercase;
+}
+
+.alter-error h2 {
+  text-transform: uppercase;
+}

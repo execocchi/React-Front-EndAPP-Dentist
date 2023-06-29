@@ -1,0 +1,9 @@
+.card {
+  background-color: var(--color-gray-800);
+  border-radius: 4px;
+}
+
+.alter-card {
+  background-color: var(--color-primary-200);
+  border-radius: 4px;
+}
